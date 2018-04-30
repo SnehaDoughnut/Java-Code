@@ -5,10 +5,12 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   
   <modelVersion>4.0.0</modelVersion>  
   
-  <groupId>com.git-maven-nexus-job.application1</groupId>  
-  <artifactId>Divya-application1</artifactId>  
-  <version>1.0</version>  
-  <packaging>jar</packaging>  
+  <repository>
+    <name>maven-releases</name>
+    <GroupId>1</GroupId>
+    <url>http://ip172-18-0-32-bbjitkvndhl000bcof6g-8081.direct.labs.play-with-docker.com/repository/maven-releases/</url>
+  </repository>
+   
   
   <name>Maven Archetype</name>  
   <url>http://maven.apache.org</url>  
