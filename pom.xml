@@ -10,13 +10,13 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <version>1.0</version>  
   <packaging>jar</packaging>  
   
-  <name>Maven Quick Start Archetype</name>  
+  <name>Maven Archetype</name>  
   <url>http://maven.apache.org</url>  
   
   <dependencies>  
   </dependencies>  
   
-   <servers>
+ <!--   <servers>
     <server>
       <id>nexus-snapshots</id>
       <username>admin</username>
@@ -27,6 +27,6 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
       <username>admin</username>
       <password>admin123</password>
     </server>
-  </servers>
+  </servers> -->
 
 </project>  
